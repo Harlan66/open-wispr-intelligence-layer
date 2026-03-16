@@ -1,5 +1,7 @@
 # open-wispr-intelligence-layer
 
+[中文说明 / Chinese README](./README.zh-CN.md)
+
 A local-first intelligence layer that makes local speech transcription feel **smarter**, not just more private.
 
 ## What this project is actually about
@@ -177,6 +179,7 @@ Repository layout:
 ```text
 .
 ├── README.md
+├── README.zh-CN.md
 ├── LICENSE
 ├── config/
 │   └── network_recovery_retry.example.json
@@ -188,6 +191,30 @@ Repository layout:
     ├── openwispr_nightly_review.py
     └── network_recovery_retry.py
 ```
+
+---
+
+## How people can actually find this project
+
+For discoverability, this repo is intentionally positioned around search phrases people may already use:
+
+- local speech transcription intelligence
+- open-wispr enhancement
+- local-first ASR improvement
+- hybrid local + LLM correction pipeline
+- transcript contamination filtering
+- technical vocabulary normalization for dictation
+
+In practice, discoverability comes from four layers:
+
+1. **Clear repo name**
+   - `open-wispr-intelligence-layer`
+2. **Readable README title + first paragraph**
+   - explain the problem in plain language
+3. **Repository topics / tags**
+   - make GitHub search and topic browsing work
+4. **Bilingual documentation**
+   - so both Chinese and English readers can find and understand it
 
 ---
 
