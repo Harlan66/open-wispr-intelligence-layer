@@ -159,10 +159,25 @@
 │   └── launchd/
 │       ├── com.example.open-wispr-nightly-review.plist
 │       └── com.example.network-recovery-retry.plist
-└── scripts/
-    ├── openwispr_nightly_review.py
-    └── network_recovery_retry.py
+├── scripts/
+│   ├── openwispr_nightly_review.py
+│   └── network_recovery_retry.py
+└── skills/
+    └── open-wispr-intelligence-maintainer/
+        └── SKILL.md
 ```
+
+### 给下载者的 Agent Skill 文档
+
+如果你希望自己的 agent 能稳定维护和使用这套链路，请直接使用：
+
+- `skills/open-wispr-intelligence-maintainer/SKILL.md`
+
+该文档定义了：
+- 什么时候触发维护技能
+- 标准维护顺序
+- 防污染与自动化边界
+- 常见故障排查（retry / launchd / runtime）
 
 ---
 

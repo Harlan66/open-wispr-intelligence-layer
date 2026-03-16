@@ -187,10 +187,26 @@ Repository layout:
 │   └── launchd/
 │       ├── com.example.open-wispr-nightly-review.plist
 │       └── com.example.network-recovery-retry.plist
-└── scripts/
-    ├── openwispr_nightly_review.py
-    └── network_recovery_retry.py
+├── scripts/
+│   ├── openwispr_nightly_review.py
+│   └── network_recovery_retry.py
+└── skills/
+    └── open-wispr-intelligence-maintainer/
+        └── SKILL.md
 ```
+
+### Agent skill for maintainers
+
+If you want your own coding/ops agent to maintain and operate this project consistently,
+use:
+
+- `skills/open-wispr-intelligence-maintainer/SKILL.md`
+
+It defines:
+- when the maintenance skill should trigger
+- the standard operation sequence
+- guardrails against contamination and over-automation
+- troubleshooting patterns for retry/launchd/runtime failures
 
 ---
 
