@@ -1,0 +1,13 @@
+{
+  "tasks": [
+    {
+      "name": "open-wispr-remote-review",
+      "jobId": "replace-with-your-job-id",
+      "pendingPath": "~/.config/open-wispr/remote-review-input.jsonl",
+      "timeoutMs": 300000,
+      "cooldownSeconds": 600,
+      "expectFinal": true,
+      "enabled": true
+    }
+  ]
+}
